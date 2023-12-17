@@ -4,6 +4,6 @@ services:
     env: docker
     autoDeploy: false
     disk:
-      name: data
-      mountPath: /data/db
+      name: database
+      mountPath: /databse/db
       sizeGB: 10
